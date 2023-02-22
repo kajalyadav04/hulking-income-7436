@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.navbar nav {
+    padding: 0 25px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+nav div > div {
+    cursor: pointer;
+}
+
+nav .logo,
+nav .nav-links,
+nav .nav-links .location {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+nav .logo {
+    font-size: 24px;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+nav .logo span {
+    margin-left: 10px;
+}
+nav .logo img {
+    border-radius: 3px;
+    width: 40px;
+}
+nav .nav-center {
+    gap: 30px;
+}
+nav .nav-right {
+    gap: 15px;
+}
+nav .nav-right .location {
+    padding: 10px 15px;
+    border-radius: 10px;
+    gap: 5px;
+}
+nav .nav-right .location:hover {
+    background-color: white;
+    color: black;
+}
+.nav-right .get-app {
+    padding: 10px 15px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+nav .nav-links a {
+    text-decoration: none;
+    color: white;
+}
