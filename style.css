@@ -26,22 +26,22 @@ nav div > div {
     cursor: pointer;
 }
 
-nav .logo,
+ .logo,
 nav .nav-links,
 nav .nav-links .location {
     display: flex;
     align-items: center;
     text-transform: uppercase;
 }
-nav .logo {
+.logo {
     font-size: 24px;
     cursor: pointer;
     text-transform: capitalize;
 }
-nav .logo span {
+.logo span {
     margin-left: 10px;
 }
-nav .logo img {
+.logo img {
     border-radius: 3px;
     width: 40px;
 }
@@ -83,7 +83,7 @@ nav .nav-links a {
      align-items: center;
 }
 #my-vid {
-    position: absolute;
+    position:absolute;
     top:0;
     left:0;
     width: 100%;
@@ -114,5 +114,200 @@ nav .nav-links a {
      margin-bottom: 10px;
 }
 body{
-    background-color:rgb(66, 66, 71)
+    background-color:#051320;  
+}
+#cont-par{
+display:grid;
+grid-template-columns: repeat(3,1fr);
+justify-content: space-around;
+gap: 5%;
+width: 80%;
+margin: auto;
+margin-top: 10px;
+border: 2px solid none;
+
+}
+#cont-par > .gen{
+    width: 80%;
+    background-color: #333;
+    padding:30px 60px 10px 60px;
+    border-radius: 5px;
+    color: #FFFF;
+    line-height: 25px;
+    margin: auto;
+    
+
+}
+#cont-par > img{
+    margin-top: 20px;
+}
+#gal-par {
+    position: relative;
+    margin-bottom: 100px;
+}
+#gal-par .pics{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 400px 400px;
+    justify-content: space-around;
+    gap: 5%;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid none; 
+}
+
+#gal-par .pics div img {
+    width: 100%;
+    height: 100%;
+}
+
+.gal-par-text {
+    color: #fff;
+    font-size: 32px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#trainer {
+    margin-top: 50px;
+    position: relative;
+}
+#trainer >.trainee-pics {
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 400px 400px;
+    justify-content: space-around;
+    gap: 5px;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    border: 2px solid none; 
+}
+
+#trainer >.trainee-pics > div img {
+    width: 90%;
+    height: 90%;
+}
+
+.trainee-pics-text {
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#circular #one-text h1 {
+    color: #fff;
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+ 
+#circular h4 {
+    color: skyblue;
+    
+}
+#circular{
+position: relative;
+}
+#cult {
+ position: absolute;
+}
+
+#learn-more {
+
+ display: flex;
+ justify-content: center;
+}
+#circular > #cult> #group-one{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    justify-content: space-around;
+    gap: 15px;
+    width: 80%;
+    margin: auto;
+    padding-left: 20%;
+    margin-top: 10px;
+    border: 2px solid none; 
+
+}
+
+#circular>    #cult > #one-text ,h1,h4 {
+    text-align: center;
+    color: white;
+}
+#circular > #cult> #group-one li{
+color: #fff;
+align-items: center;
+}
+ul+button{
+    padding: 10px 5px 10px 5px;
+    background-color: #333;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+button+button {
+    padding: 10px 5px 10px 5px;
+    background-color:orangered;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/*.logo {
+     display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}*/
+.logo span {
+    margin-left: 10px;
+    color: white;
+}
+.logo {
+    height:40px;
+}
+#foot {
+    background-color:black;
+    width: 100%;
+    color: #fff;
+    height: 300px;
+    padding-top: 30px;
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left:10%;
+    margin-bottom: 150px;
+    
+
+}
+
+#foot p{
+    font-size: 15px;
+}
+#foot a{
+color: #fff;
+text-decoration: none;
+font-size: 20px;
+padding-left: 30px;
+}
+.last-four img{
+    height: 50px;
+}
+#sildeshow img{
+height: 200px;
+width: 200px;
+
 }
